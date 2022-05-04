@@ -1,0 +1,9 @@
+/* stylelint-disable-next-line custom-property-no-missing-var-function */
+.navbar-brand {
+  color: #6070ff !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link {
+  color: #344563 !important;
+}
