@@ -1,4 +1,8 @@
 /* stylelint-disable-next-line custom-property-no-missing-var-function */
+body {
+  background-color: #e5e5e5;
+}
+
 .navbar-brand {
   color: #6070ff !important;
 }
@@ -26,8 +30,8 @@
 
 .title {
   font-weight: 700;
-  font-size: 48px;  
-  line-height: 60px;  
+  font-size: 48px;
+  line-height: 60px;
   color: #091e42;
 }
 
@@ -36,5 +40,16 @@
 }
 
 .social-item {
-  margin-right: .9375rem;
+  margin-right: 0.9375rem;
+}
+
+.category-item.disabled {
+  color: #6b778c !important;
+}
+
+.tag-item > span {
+  color: #6070ff;
+}
+.work-button {
+  color: #6070ff !important;
 }
