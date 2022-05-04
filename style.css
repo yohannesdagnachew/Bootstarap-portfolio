@@ -7,3 +7,34 @@
 .navbar-light .navbar-nav .nav-link {
   color: #344563 !important;
 }
+
+#headline {
+  background-image: url("images/bt-hd-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headline-wrap {
+  background-image: url("images/headline-icons-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headline-height {
+  height: 47.4375rem;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 48px;  
+  line-height: 60px;  
+  color: #091e42;
+}
+
+.healine-btn {
+  text-decoration: none;
+}
+
+.social-item {
+  margin-right: .9375rem;
+}
