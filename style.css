@@ -41,7 +41,7 @@ body {
 }
 
 .social-item {
-  margin-right: .9375rem;
+  margin-right: 0.9375rem;
 }
 
 #about {
@@ -58,4 +58,16 @@ body {
 }
 .work-button {
   color: #6070ff !important;
+}
+
+.form-background {
+  background-image: url("images/contact-form-background-shapes@2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-form {
+  background-image: url("images/form-background-blue.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
 }
