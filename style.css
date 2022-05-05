@@ -38,3 +38,8 @@
 .social-item {
   margin-right: .9375rem;
 }
+
+#about {
+  background-image: url("images/about-bg.png");
+  background-size: cover;
+}
