@@ -1,4 +1,8 @@
 /* stylelint-disable-next-line custom-property-no-missing-var-function */
+body {
+  background-color: #e5e5e5;
+}
+
 .navbar-brand {
   color: #6070ff !important;
 }
@@ -12,6 +16,7 @@
   background-image: url("images/bt-hd-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: right bottom;
 }
 
 .headline-wrap {
@@ -26,8 +31,8 @@
 
 .title {
   font-weight: 700;
-  font-size: 48px;  
-  line-height: 60px;  
+  font-size: 48px;
+  line-height: 60px;
   color: #091e42;
 }
 
@@ -42,4 +47,15 @@
 #about {
   background-image: url("images/about-bg.png");
   background-size: cover;
+}
+
+.category-item.disabled {
+  color: #6b778c !important;
+}
+
+.tag-item > span {
+  color: #6070ff;
+}
+.work-button {
+  color: #6070ff !important;
 }
